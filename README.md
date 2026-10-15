@@ -30,8 +30,51 @@ python scripts/analisis_principal.py
 ## Resultados principales
 Latencia promedio 64,86 ms; resolución promedio 25,33 h; 104 de 200 registros (52 %) no cumplen SLA. Son resultados descriptivos, no prueba de causa.
 
-## Calidad y ética
-Revisar nulos, duplicados, rangos y categorías; el origen de las etiquetas SLA y la representatividad no están verificados. No inferir causalidad ni aplicar decisiones individuales automáticas.
+## Calidad de los datos y consideraciones éticas
+
+### Evaluación de la calidad de los datos
+
+Para garantizar la confiabilidad del análisis operacional de RedConecta Telecom S. A., realicé una evaluación de la calidad del dataset `dataset_set_D_telecomunicaciones.xlsx`, considerando criterios de integridad, consistencia, validez y duplicidad de los registros.
+
+El conjunto de datos contiene 200 registros y 10 variables relacionadas con el desempeño de los servicios de telecomunicaciones.
+
+Durante la revisión inicial obtuve los siguientes resultados:
+
+- **Valores nulos:** no se identificaron valores faltantes en las columnas analizadas.
+- **Registros duplicados:** no se detectaron filas completamente duplicadas.
+- **Valores negativos:** no se encontraron valores negativos en las seis variables numéricas examinadas.
+- **Integridad:** los registros presentan información suficiente para realizar el análisis exploratorio.
+- **Consistencia:** las verificaciones iniciales no evidenciaron las anomalías mencionadas, aunque se requieren controles adicionales para validar la coherencia operacional.
+
+### Limitaciones identificadas
+
+Aunque el dataset presenta condiciones favorables para el análisis exploratorio, reconozco que existen algunas limitaciones:
+
+1. La ausencia de valores nulos no garantiza que todos los datos sean correctos.
+2. No se dispone de información detallada sobre las causas específicas de las incidencias.
+3. Los indicadores de latencia y resolución deben interpretarse considerando las características de cada servicio y región.
+4. No se cuenta con todos los antecedentes necesarios para determinar las causas de incumplimiento del SLA.
+5. Los resultados representan los registros disponibles y no necesariamente el comportamiento completo de la infraestructura.
+
+### Consideraciones éticas
+
+Durante el desarrollo del proyecto considero fundamental aplicar principios de responsabilidad, transparencia y protección de la información.
+
+En primer lugar, utilizo los datos exclusivamente con fines de análisis académico, evitando interpretaciones que puedan perjudicar injustificadamente a determinadas regiones, servicios o equipos de trabajo.
+
+Asimismo, considero importante presentar los resultados de manera objetiva, incluyendo tanto los indicadores favorables como las limitaciones identificadas.
+
+Desde una perspectiva de confidencialidad, reconozco la necesidad de proteger la información operacional y evitar la publicación de datos personales o sensibles sin autorización.
+
+También considero que las decisiones relacionadas con la asignación de recursos, la priorización de incidencias y la evaluación del desempeño deben fundamentarse en información confiable y contextualizada.
+
+### Reflexión final
+
+A partir de este proyecto, comprendí que la calidad de los datos influye directamente en la confiabilidad de los resultados y en las decisiones que pueden adoptarse dentro de una organización.
+
+Un análisis basado en información incorrecta o incompleta podría generar asignaciones inadecuadas de recursos, diagnósticos equivocados y dificultades para mejorar la experiencia de los clientes.
+
+Por esta razón, considero fundamental mantener procedimientos de validación, documentación y revisión continua, promoviendo una utilización responsable y ética de la ciencia de datos.
 
 ## Colaboración y control de versiones
 
