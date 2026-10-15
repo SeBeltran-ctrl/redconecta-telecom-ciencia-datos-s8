@@ -1,0 +1,8 @@
+{
+  "latencia_promedio_ms": 64.86149999999999,
+  "resolucion_promedio_hr": 25.3295,
+  "incidencias_promedio": 13.545,
+  "incumplimiento_pct": 52.0,
+  "rho_spearman": -0.03394247454060441,
+  "p_valor": 0.6332568627965758
+}

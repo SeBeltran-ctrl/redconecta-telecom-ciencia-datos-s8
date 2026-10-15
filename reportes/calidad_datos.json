@@ -1,0 +1,29 @@
+{
+  "filas": 200,
+  "columnas": 10,
+  "nulos": {
+    "fecha_registro": 0,
+    "region": 0,
+    "tipo_servicio": 0,
+    "trafico_datos_gb": 0,
+    "latencia_ms": 0,
+    "incidencias_reportadas": 0,
+    "tickets_soporte": 0,
+    "tiempo_resolucion_hr": 0,
+    "clientes_afectados": 0,
+    "cumplimiento_sla": 0
+  },
+  "duplicados_exactos": 0,
+  "negativos": {
+    "trafico_datos_gb": 0,
+    "latencia_ms": 0,
+    "incidencias_reportadas": 0,
+    "tickets_soporte": 0,
+    "tiempo_resolucion_hr": 0,
+    "clientes_afectados": 0
+  },
+  "sla": {
+    "No cumple": 104,
+    "Cumple": 96
+  }
+}
