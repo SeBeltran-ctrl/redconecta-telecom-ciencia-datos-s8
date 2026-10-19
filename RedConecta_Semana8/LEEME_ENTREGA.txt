@@ -1,0 +1,1 @@
+Semana 8 IACC. Incluye Excel editable con dashboard, reportes para dos áreas, 5 imágenes PNG, scripts, notebook, dataset y README. El informe PDF debe prepararse en la plantilla IACC y agregarse antes de entregar. El repositorio GitHub y su enlace deben crearse por el estudiante.
